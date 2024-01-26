@@ -21,8 +21,6 @@ TRELLO_API_KEY=sua_chave_de_api
 TRELLO_API_TOKEN=seu_token_de_api
 ```
 
-Nota: Não esqueça de adicionar .env ao .gitignore para evitar que suas chaves de API sejam expostas publicamente.
-
 ## Instalação
 Para instalar as dependências do projeto, execute:
 npm install
