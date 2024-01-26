@@ -23,7 +23,9 @@ TRELLO_API_TOKEN=seu_token_de_api
 
 ## Instalação
 Para instalar as dependências do projeto, execute:
-```npm install```
+```env
+npm install
+```
 
 
 ## Estrutura do Projeto
@@ -37,10 +39,14 @@ package.json: Contém as dependências e scripts do projeto.
 
 ## Execução dos Testes
 Para executar os testes em modo headless, utilize o seguinte comando:
-```npm test```
+```env
+npm test
+```
 
 Para abrir o Cypress em modo interativo, use:
-```npx cypress open```
+```env
+npx cypress open
+```
 
 ## Testes Implementados
 Os testes implementados neste projeto incluem:
