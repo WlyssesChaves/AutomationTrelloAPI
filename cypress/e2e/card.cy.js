@@ -22,7 +22,7 @@ describe("Card Endpoint - Create and Delete Trello Card", () => {
     cy.log("Create Card");
     cy.api({
       method: "POST",
-      url: "https://api.trello.com/1/cards",
+      url: `${Cypress.env("baseUrl")}/cards`,
       qs: {
         key: Cypress.env("TRELLO_API_KEY"),
         token: Cypress.env("TRELLO_API_TOKEN"),

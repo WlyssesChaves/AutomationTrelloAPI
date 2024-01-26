@@ -20,8 +20,8 @@ module.exports = defineConfig({
 
       return config;
     },
-    baseUrl: "https://api.trello.com",
     env: {
+      baseUrl: 'https://api.trello.com/1',
       TRELLO_API_KEY: "YOUR_TRELLO_API_KEY",
       TRELLO_API_TOKEN: "YOUR_TRELLO_API_TOKEN",
     },
