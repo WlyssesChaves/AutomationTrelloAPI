@@ -51,10 +51,10 @@ npx cypress open
 ## Testes Implementados
 Os testes implementados neste projeto incluem:
 
-1 - Criação de um novo board.
-2 - Criação de um novo card em uma lista específica.
-3 - Exclusão de um card.
-4 - Exclusão de um board.
+- Criação de um novo board.
+- Criação de um novo card em uma lista específica.
+- Exclusão de um card.
+- Exclusão de um board.
 
 ## Limpeza
 Após a execução dos testes, o projeto utiliza hooks afterEach para garantir que todos os recursos criados durante os testes sejam devidamente excluídos, mantendo o ambiente de testes limpo.
