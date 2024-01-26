@@ -21,11 +21,11 @@ TRELLO_API_KEY=sua_chave_de_api
 TRELLO_API_TOKEN=seu_token_de_api
 ```
 
-Nota: Não esqueça de adicionar .env ao .gitignore para evitar que suas chaves de API sejam expostas publicamente.
-
 ## Instalação
 Para instalar as dependências do projeto, execute:
+```env
 npm install
+```
 
 
 ## Estrutura do Projeto
@@ -39,18 +39,22 @@ package.json: Contém as dependências e scripts do projeto.
 
 ## Execução dos Testes
 Para executar os testes em modo headless, utilize o seguinte comando:
+```env
 npm test
+```
 
 Para abrir o Cypress em modo interativo, use:
+```env
 npx cypress open
+```
 
 ## Testes Implementados
 Os testes implementados neste projeto incluem:
 
-1 - Criação de um novo board.
-2 - Criação de um novo card em uma lista específica.
-3 - Exclusão de um card.
-4 - Exclusão de um board.
+- Criação de um novo board.
+- Criação de um novo card em uma lista específica.
+- Exclusão de um card.
+- Exclusão de um board.
 
 ## Limpeza
 Após a execução dos testes, o projeto utiliza hooks afterEach para garantir que todos os recursos criados durante os testes sejam devidamente excluídos, mantendo o ambiente de testes limpo.
